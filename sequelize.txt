@@ -1,0 +1,31 @@
+- npm install sequelize
+- npm install sequeliz-cli
+- npm install mysql2
+
+- npx sequelize init
+
+
+create model
+
+- npx sequelize-cli model:generate --name user --attributes email:string,password:string,name:string
+
+
+run the migration
+
+- npx sequelize db:migrate
+
+
+undo the migration
+
+- npx sequelize db:migrate:undo
+
+----------------------
+
+task: 
+- complete this app. with current framwork
+- send the code tnoght
+- video when do coding
+
+- same app with gatsby framework
+- + react
+1. send berofe tuesday 
